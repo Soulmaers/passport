@@ -1,0 +1,19 @@
+<h1>
+    SignUp Page
+</h1>
+<form action="/api/user/signup" method="POST" headers="
+    'Content-Type': 'application/json'">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+    <label for="firstname">FirstName</label>
+    <input type="text" name="firstname" id="firstname">
+    <label for="lastname">LastName</label>
+    <input type="text" name="lastname" id="lastname">
+    <button>Submit</button>
+</form>
+<ul>
+    <li><a href="/api/user">Home</a></li>
+    <li><a href="/api/user/login">login</a></li>
+</ul>
